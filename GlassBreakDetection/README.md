@@ -1,5 +1,7 @@
 ﻿# Glass Break Detection
 
+This project is designed to work exclusively with DEEPCRAFT™ Studio. Download it from [here](https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio)
+
 ## Overview
 
 This machine learning project focuses on developing a glass break detection model that can accurately identify glass break events by analyzing audio signals.
