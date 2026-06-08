@@ -115,19 +115,7 @@ To expand the dataset with new measurements:
 
 3. **Data Processing Pipeline**
    
-   To run the automated processing scripts, see [Tools/README.md](Tools/README.md) for more details
-
-   Run the automated processing scripts:
-   ```powershell
-   # Activate virtual environment
-   Tools\venvVTS\Scripts\Activate.ps1
-   
-   # Process new .mat files
-   python Tools\scripts\1_convert_mat_csv.py
-   python Tools\scripts\2_downsample_normalize.py
-   python Tools\scripts\3_separate_input_data_target_data.py
-   python Tools\scripts\4_split_csv_multiple_parts.py
-   ```
+   To run the automated processing scripts, see [Tools/README.md](Tools/README.md) for more details.
 
 4. **Data Labeling**
    - Physical coil temperature sensor provides ground truth labels automatically
